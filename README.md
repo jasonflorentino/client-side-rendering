@@ -271,7 +271,7 @@ Code splitting introduced us to a new problem: async vendor duplication.
 Say we have two async chunks: `lorem-ipsum.[hash].js` and `pokemon.[hash].js`.
 If they both include the same dependency that is not part of the main chunk, that means the user will download that dependency **twice**.
 
-So if that said dependency is `moment` and it weighs 72kb minzipped, then both async chunk's size will be **at least** 72kb.
+So if that dependency is `moment` and it weighs 72kb minzipped, then both async chunk's size will be **at least** 72kb.
 
 We need to split this dependency from these async chunks so that it could be shared between them:
 
