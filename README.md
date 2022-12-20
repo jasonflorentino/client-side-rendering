@@ -176,7 +176,7 @@ https://webpack.js.org/plugins/split-chunks-plugin/#defaults
 
 A lot of the features we write end up being used only in a few of our pages, so we would like them to be downloaded only when the user visits the page they are being used in.
 
-For Example, we wouldn't want users to download the _[react-big-calendar](https://www.npmjs.com/package/react-big-calendar)_ package if they just loaded the home page. We would only want that to happen when they visit the calendar page.
+For example, we wouldn't want users to download the _[react-big-calendar](https://www.npmjs.com/package/react-big-calendar)_ package if they just loaded the home page. We would only want that to happen when they visit the calendar page.
 
 The way we achieve this is (preferably) by route-based code splitting:
 
