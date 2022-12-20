@@ -110,7 +110,7 @@ _Note that while this project is implemented with React, the vast majority of it
 
 We will assume a standard Webpack 5 setup and add the required customizations as we progress.
 <br>
-Most of the code changes that we'll go throught will be in the _[webpack.config.js](webpack.config.js)_ configuration file and the _[index.js](public/index.js)_ HTML template.
+Most of the code changes that we'll go through will be in the _[webpack.config.js](webpack.config.js)_ configuration file and the _[index.js](public/index.js)_ HTML template.
 
 ### Bundle Size
 
